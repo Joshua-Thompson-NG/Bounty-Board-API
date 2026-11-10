@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Packages and Packaging
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# Testing, Coverage, and Linting
+.coverage
+.coverage.*
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+htmlcov/
+nosetests.xml
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# FastAPI / Starlette / Uvicorn Specific logs & database defaults
+*.log
+pip-log.txt
+db.sqlite3
+*.db
+.webassets-cache
+
+# IDEs / Editors
+.visualstudio
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System Files
+.DS_Store
+Thumbs.db
